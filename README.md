@@ -49,6 +49,10 @@ This project is all about using Json Web Token (JWT) in authentication process f
     ```
     npx sequelize-cli db:migrate
     ```
+    if this gives any error try this one-
+    ```
+    npx dotenv -e ../.env sequelize-cli db:migrate
+    ```
 5. Now the database is all set up.
 
 ## API Documentation
