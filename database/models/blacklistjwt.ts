@@ -25,5 +25,6 @@ BlacklistJWT.init(
     {
         sequelize: db,
         modelName: 'blacklistJWT',
+        tableName: 'blacklistjwts',
     }
 );
