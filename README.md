@@ -26,6 +26,10 @@ This project is all about using Json Web Token (JWT) in authentication process f
     ```
     cp .env.example .env
     ```
+5. Then run the project using following command.
+    ```
+    npm run dev
+    ```
 
 ## Database Migration
 
