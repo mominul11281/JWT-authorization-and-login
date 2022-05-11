@@ -45,7 +45,8 @@ This project is all about using Json Web Token (JWT) in authentication process f
     ```
     cd database
     ```
-4. Now using sequelize-cli migrate all the tables to database using following command.
+4. Change the info of `config/config.json` (host, port, dialect) according to your database configuration. Otherwise, database connection and migration will not work properly.
+5. Now using sequelize-cli migrate all the tables to database using following command.
     ```
     npx sequelize-cli db:migrate
     ```
@@ -53,7 +54,7 @@ This project is all about using Json Web Token (JWT) in authentication process f
     ```
     npx dotenv -e ../.env sequelize-cli db:migrate
     ```
-5. Now the database is all set up.
+6. Now the database is all set up.
 
 ## API Documentation
 
